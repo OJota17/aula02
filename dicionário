@@ -1,0 +1,9 @@
+// FORMA MAIS SIMPLIFICADA DO MAIN2
+// if(numeroUsuario > 0){
+//     console.log("O numero é positivo")
+// }
+// else if (numeroUsuario < 0){
+//     console.log("O numero é negativo")
+// }
+// else
+//     console.log("O numero é 0")
