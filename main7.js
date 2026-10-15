@@ -10,3 +10,5 @@ var media = 0
 if (media < 7){
     if (media)
 }
+
+
