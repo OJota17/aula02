@@ -1,23 +1,38 @@
-// Escreva um programa que leia uma data (dia, mês, ano) e verifique se é uma data válida.
+var dia = 19
+var mes = 3
+var ano = 2003
 
-var dia = 15
-var mes = 10
-var ano = 2026
 
-if (dia <= 31)
-    console.log("O dia é válido")
+if (dia <= 30) {
+    if (mes == 3) {
+        if (dia <= 28) {
+            console.log("seu dia e valido")
 
-if (dia <= 28) { //Fevereiro
-    console.log("Dia válido")
-} else {
-    console.log("Dia inválido")
-    if (mes <= 12) {
-        console.log("O mes é válido")
-    } else {
-        console.log("O mes é invalido")
-    } if (ano >= 0) {
-        console.log("O ano é válido")
-    } else {
-        console.log("O ano é inválido")
+        }
+        else {
+            console.log("seu dia e invalido")
+        }
     }
+    else {
+        console.log("seu dia e valido")
+    }
+}
+else {
+    console.log("seu dia e invalido")
+}
+if (mes <= 12) {
+    console.log("seu mes e valido")
+
+}
+else {
+    console.log("seu mes e invalido")
+}
+
+
+if (ano >= 0) {
+    console.log("seu ano e valido")
+
+}
+else {
+    console.log("seu ano e invalido")
 }
