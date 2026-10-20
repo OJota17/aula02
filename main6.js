@@ -3,7 +3,7 @@
 var num1 = 20
 var num2 = 4
 
-var operacao = "/"
+var operacao = "/" //Soma + | Subtração - | Multiplicação * | Divisão /
 var resultado = 0
 
 
