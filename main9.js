@@ -8,6 +8,4 @@ if (numero <= 100) {
     } else {
         console.log(numero + " não está entre 1 e 100")
     }
-} else {
-    console.log(numero + " não está entre 1 e 100")
 }
